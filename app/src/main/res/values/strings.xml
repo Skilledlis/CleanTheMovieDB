@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">CleanTheMovieDB</string>
+    <string name="top">Top</string>
+    <string name="favorite">Favorite</string>
+    <string name="popular">Popular</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

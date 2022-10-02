@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/topMoviesFragment"
+        android:icon="@drawable/icon_star"
+        android:title="@string/top"
+        tools:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/popularMoviesFragment"
+        android:icon="@drawable/icon_popular"
+        android:title="@string/popular"
+        tools:showAsAction="always" />
+    <item
+        android:id="@+id/favoriteMoviesFragment"
+        android:icon="@drawable/icon_favorite"
+        android:title="@string/favorite"
+        tools:showAsAction="always" />
+</menu>

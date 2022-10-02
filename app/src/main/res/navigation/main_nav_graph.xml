@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph.xml"
+    app:startDestination="@id/topMoviesFragment">
+
+    <fragment
+        android:id="@+id/topMoviesFragment"
+        android:name="com.skilled.cleanthemoviedb.TopMoviesFragment"
+        android:label="fragment_top_movies"
+        tools:layout="@layout/fragment_top_movies" />
+    <fragment
+        android:id="@+id/popularMoviesFragment"
+        android:name="com.skilled.cleanthemoviedb.PopularMoviesFragment"
+        android:label="fragment_popular_movies"
+        tools:layout="@layout/fragment_popular_movies" />
+    <fragment
+        android:id="@+id/favoriteMoviesFragment"
+        android:name="com.skilled.cleanthemoviedb.FavoriteMoviesFragment"
+        android:label="fragment_favorite_movies"
+        tools:layout="@layout/fragment_favorite_movies" />
+</navigation>
